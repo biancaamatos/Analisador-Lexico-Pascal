@@ -1,4 +1,4 @@
-PROGRAM EXEMPLO5;
+PROGRAM EXEMPLO;
 VAR
   M: INTEGER;
   NOME: STRING;
@@ -11,7 +11,7 @@ BEGIN
     F := N * 2;
 END;
 
-BEGIN
+BEGINs
   M := 10;
   WRITELN('Resultado: ', F(M));
 END.
